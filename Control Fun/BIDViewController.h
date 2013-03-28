@@ -11,5 +11,6 @@
 @interface BIDViewController : UIViewController
 @property (weak, nonatomic) IBOutlet UITextField *numberField;
 @property (weak, nonatomic) IBOutlet UITextField *nameField;
+-(IBAction)textFieldDoneEdting:(id)sender;
 
 @end
